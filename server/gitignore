@@ -1,0 +1,96 @@
+# ==============================
+# Forge - MERN project
+# Root .gitignore
+# ==============================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+!**/.env.template
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+.nyc_output/
+
+# Logs and runtime files
+*.log
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.pid.lock
+pids/
+
+# Temporary files and caches
+.tmp/
+temp/
+tmp/
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Uploaded/generated user data
+uploads/*
+!uploads/.gitkeep
+server/uploads/*
+!server/uploads/.gitkeep
+storage/
+*.sqlite
+*.sqlite3
+*.db
+
+# Test and debug output
+test-results/
+playwright-report/
+playwright/.cache/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+
+# OS files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Optional local package-manager files
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Keep project documentation and source files tracked.
